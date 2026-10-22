@@ -1,9 +1,0 @@
-/* Minimal styling so Part B is testable. Part C replaces this file. */
-body { font-family: sans-serif; background: #1a1a1a; color: #eee; margin: 0; }
-.app { max-width: 900px; margin: auto; padding: 16px; }
-.search { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 16px; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
-.card { background: #2a2a2a; border: 2px solid transparent; border-radius: 8px; padding: 10px; text-align: center; cursor: pointer; text-transform: capitalize; }
-.card.selected { border-color: #4ade80; }
-.badge { display: inline-block; padding: 2px 8px; margin: 2px; border-radius: 10px; background: #555; font-size: 12px; }
-.empty { text-align: center; color: #aaa; }
